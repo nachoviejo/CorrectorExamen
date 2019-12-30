@@ -1,0 +1,58 @@
+body {
+    background-image: url(examenes.jpg);
+    background-size: 100vw;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+form{
+    width: 600px;
+    margin: auto;
+    background: rgba(0,0,0,0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+
+h2{
+    color: #ffff;
+    text-align:  center;
+    margin: 0;
+    font-size:  30px;
+    margin-bottom: 20px;
+}
+
+label{
+    color: #ffff;
+}
+
+input{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing:  border-box;
+    font-size: 17px;
+}
+
+select{
+    margin-bottom: 20px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+#enviar{
+    background: #0000;
+    color: #ffff;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#enviar:hover{
+    cursor: pointer;
+}
+
+@media (max-width:480px){
+    form{
+        width: 100%;
+    }
+}
